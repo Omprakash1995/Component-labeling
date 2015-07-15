@@ -1,0 +1,1 @@
+int read_header(char* fn, int* pwidth, int* pheight, char* option);

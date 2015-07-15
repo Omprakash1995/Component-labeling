@@ -1,0 +1,21 @@
+﻿Build started 15-Jul-15 5:54:58 AM.
+     1>Project "C:\Users\Om\Documents\Visual Studio 2013\Projects\CCL\CCL\CCL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\AMD APP SDK\3.0-0-Beta\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Components.cpp Input.cpp
+         Input.cpp
+         Components.cpp
+     1>c:\users\om\documents\visual studio 2013\projects\ccl\ccl\components.cpp(13): warning C4101: 'cx' : unreferenced local variable
+     1>c:\users\om\documents\visual studio 2013\projects\ccl\ccl\components.cpp(13): warning C4101: 'td' : unreferenced local variable
+     1>c:\users\om\documents\visual studio 2013\projects\ccl\ccl\components.cpp(14): warning C4101: 'buf' : unreferenced local variable
+     1>c:\users\om\documents\visual studio 2013\projects\ccl\ccl\components.cpp(13): warning C4101: 'cy' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Om\Documents\Visual Studio 2013\Projects\CCL\Debug\CCL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\AMD APP SDK\3.0-0-Beta\lib\x86" amdhsasc.lib amdocl.lib GlAux.lib glew32.lib glut32.lib OpenCL.lib OpenVideo.lib OVDecode.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Om\Documents\Visual Studio 2013\Projects\CCL\Debug\CCL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Om\Documents\Visual Studio 2013\Projects\CCL\Debug\CCL.lib" /MACHINE:X86 Debug\Components.obj
+         Debug\Input.obj
+         Debug\Main.obj
+         CCL.vcxproj -> C:\Users\Om\Documents\Visual Studio 2013\Projects\CCL\Debug\CCL.exe
+     1>Done Building Project "C:\Users\Om\Documents\Visual Studio 2013\Projects\CCL\CCL\CCL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.01
